@@ -1,0 +1,11 @@
+package com.pavan.studentmanagement.dto;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class EnrollmentDto {
+    Long studentId;
+    Long courseId;
+}
